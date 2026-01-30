@@ -1,0 +1,2 @@
+Endee can be used for semantic search, retrieval-augmented generation (RAG), and recommendation systems.
+It is cloud-native and optimized for scalable production deployments.

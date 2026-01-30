@@ -1,0 +1,3 @@
+Endee is a next-generation vector database built for real-world AI workloads.
+It supports ultra-fast vector similarity search with millisecond latency.
+The system is designed to scale to billions of embeddings without performance degradation.
