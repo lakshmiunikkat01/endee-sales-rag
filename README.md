@@ -109,5 +109,3 @@ It is designed with safety, explainability, and modularity in mind, aligning wit
 
 This project demonstrates a practical RAG workflow using Endee for retrieval and Groq for generation.
 It is designed with safety, explainability, and modularity in mind, aligning with real-world enterprise AI requirements.
-git clone https://github.com/lakshmiunikkat01/endee-sales-rag.git
-cd endee-sales-rag
