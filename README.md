@@ -52,8 +52,7 @@ This ensures:
 
 # Setup Instructions
 
-### 1. Clone the Repository
-
+## 1. Clone the Repository
 ```bash
 git clone https://github.com/lakshmiunikkat01/endee-sales-rag.git
 cd endee-sales-rag
@@ -67,37 +66,19 @@ GROQ_API_KEY=your_groq_api_key_here
 Place text files inside the following directory:
 
 data/docs/
-## **Execution Instructions**
-
-### **Ingest Documents**
-
-```bash
+Execution Instructions
+Ingest Documents
 python src/ingest.py
-```bash
+Query Documents
 python src/query.py
-## **Example Questions**
+Example Questions
+What is Endee designed for?
 
-- What is Endee designed for?
-- Does Endee support semantic search?
+Does Endee support semantic search?
 
 If the answer is not explicitly present in the documents, the system responds accordingly.
-## **Key Features**
 
-- Retrieval-Augmented Generation (RAG)
-- Endee-based semantic retrieval
-- Groq-based answer generation
-- Hallucination-safe responses
-- Source attribution
-- Incremental document ingestion
-- CLI-based execution
-## **Conclusion**
-
-This project demonstrates a practical RAG workflow using Endee for retrieval and Groq for generation.  
-It is designed with safety, explainability, and modularity in mind, aligning with real-world enterprise AI system requirements.
-
-
-##**Key Features**
-
+Key Features
 Retrieval-Augmented Generation (RAG)
 
 Endee-based semantic retrieval
@@ -112,9 +93,7 @@ Incremental document ingestion
 
 CLI-based execution
 
-##**Conclusion**
-
+Conclusion
 This project demonstrates a practical RAG workflow using Endee for retrieval and Groq for generation.
-It is designed with safety, explainability, and modularity in mind, aligning with real-world enterprise AI requirements.
-git clone https://github.com/lakshmiunikkat01/endee-sales-rag.git
-cd endee-sales-rag
+It is designed with safety, explainability, and modularity in mind, aligning with real-world enterprise AI system requirements.
+
