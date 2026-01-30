@@ -50,28 +50,22 @@ This ensures:
 
 ---
 
-## **Setup Instructions**
+# Setup Instructions
 
-### **1. Clone the Repository**
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/lakshmiunikkat01/endee-sales-rag.git
 cd endee-sales-rag
-### **2. Install Dependencies**
-
-```bash
+2. Install Dependencies
 pip install groq python-dotenv
-### **3. Configure Environment Variables**
+3. Configure Environment Variables
+Create a .env file in the project root directory:
 
-Create a `.env` file in the project root directory:
-
-```env
 GROQ_API_KEY=your_groq_api_key_here
-### **4. Add Documents**
-
+4. Add Documents
 Place text files inside the following directory:
 
-```text
 data/docs/
 ## **Execution Instructions**
 
