@@ -80,11 +80,10 @@ data/docs/
 
 ### **Ingest Documents**
 
-```bash
 python src/ingest.py
-```bash
 python src/query.py
-```  
+
+
 ## **Example Questions**
 
 - What is Endee designed for?
@@ -100,10 +99,10 @@ If the answer is not explicitly present in the documents, the system responds ac
 - Source attribution
 - Incremental document ingestion
 - CLI-based execution
-## **Conclusion**
+## Conclusion
 
-This project demonstrates a practical RAG workflow using Endee for retrieval and Groq for generation.  
-It is designed with safety, explainability, and modularity in mind, aligning with real-world enterprise AI system requirements.
+This project implements a simple and practical Retrieval-Augmented Generation (RAG) pipeline using Endee for semantic retrieval and Groq for answer generation.  
+It demonstrates safe, source-grounded question answering over internal documents with a modular ingestion and query workflow suitable for real-world use cases.
 
 
 
